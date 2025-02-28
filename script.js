@@ -1,6 +1,7 @@
 //your JS code here. If required.
 let btn= document.getElementById("colorSelect");
-btn.removeListener("click" => {
+let select = document.getElementById("colorSelect");
+btn.removeEventListener("click" => {
 	 var selectedIndex = select.selectedIndex;
     
     if (selectedIndex !== -1) {
